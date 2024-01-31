@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bilbo+Swash+Caps&family=Concert+One&family=Creepster&family=East+Sea+Dokdo&family=IBM+Plex+Sans:wght@300&family=Lato&family=Love+Light&family=Love+Ya+Like+A+Sister&family=Loved+by+the+King&family=Lovers+Quarrel&family=Montserrat&family=Newsreader&family=Pacifico&family=Playfair+Display&family=Playfair+Display+SC&family=Poppins&family=Rampart+One&family=Roboto&family=Roboto+Flex:wght@800&display=swap"
+        rel="stylesheet">
+
+    <!-- boxicons cdn link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--Linking css to this html file-->
+    <link rel="stylesheet" href="Jasmine_khan_2406768.css" />
+
+    <title>Weather Application</title>
+
+</head>
+
+<body>
+    <!--Maiin Input for Entire page-->
+    <div class="container">
+        <!--frontpage Section-->
+        <div class="frontpage">
+            <div class="frontpage-contents">
+                <img src="https://cdn-icons-png.flaticon.com/512/1779/1779882.png" alt="weather-front-image"
+                    class="weather-front-image">
+                <h2>Weather <span style="font-size: 30px;font-weight: 100;">Forecasts</span></h2>
+                <button type="button" name="" class="getting-started-btn">Get Start</button>
+                <p>Check weather Update</p>
+            </div>
+        </div>
+
+        <!--Weather Inputs-->
+        <div class="weather-container">
+            <div class="weatherInputField">
+                <i class='bx bx-search-alt'></i>
+                <input class="citySearch" type="text" name="" placeholder="Search City...">
+                <button type="button" name="" class="searchBtn">Search</button>
+            </div>
+
+            <!--Weather Information Display-->
+            <div class="weatherInput">
+                <div class="location-data">
+                    <div class="location-content">
+                        <i class='bx bxs-map'></i>
+                        <h3>Ratnagiri</h3>
+                    </div>
+                    <p>2024-01-04</p>
+                </div>
+                <div class="weather-Degree">
+                    <h1>23.99°C </h1>
+                    <h2>Broken Clouds</h2>
+                </div>
+                <div class="weather-pallete">
+                    <!--Pressure Information-->
+                    <div class="pallete-data">
+                        <i class='bx bx-water'></i>
+                        <small>1012 M/B</small>
+                        <span>Pressure</span>
+                    </div>
+
+                    <!--Humidity Information-->
+                    <div class="pallete-data">
+                        <i class='bx bxs-droplet-half'></i>
+                        <small>66%</small>
+                        <span>Humidity</span>
+                    </div>
+
+                    <!--Wind Speed Information-->
+                    <div class="pallete-data">
+                        <i class='bx bx-wind'></i>
+                        <small> 2.55 M/S</small>
+                        <span>wind Speed</span>
+                    </div>
+                </div>
+            </div>
+            <!-- weather input code ends -->
+
+            <div class="swiper mySwiper weather-forecasts">
+                <h3>5 Days Weather Forecast</h3>
+                <div class="swiper-wrapper weather-ul">
+                    <div class="swiper-slide weather-data">
+                        <small> 21.44° </small>
+                    </div>
+
+                    <div class="swiper-slide weather-data">
+
+                        <small> 20.64°</small>
+                    </div>
+
+                    <div class="swiper-slide weather-data">
+
+                        <small>20.79°</small>
+                    </div>
+
+                    <div class="swiper-slide weather-data">
+                        <small>23.15°</small>
+                    </div>
+
+                    <div class="swiper-slide weather-data">
+
+                        <small>24.65°</small>
+                    </div>
+                </div>
+            </div>
+        </body>
+        <body>
+            <div class="main-content">
+                <!--main contain-->
+            </div>
+            <!-- footer -->
+            <footer class="footer">
+                <div class="copyright">
+                <p>&copy; 2024 Jasmine Khan, 2406768 </p>
+                </div>
+            </footer>
+
+            <!--Linking js to this html file-->
+            <script src="Jasmine_khan_2406768.js"></script>
+</body>
+
+</html>
